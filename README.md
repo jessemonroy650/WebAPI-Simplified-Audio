@@ -28,3 +28,5 @@ This example app uses the least amount of javascript and css possible. It only u
 * For `script-src * 'self' 'unsafe-inline' 'unsafe-eval'`
     * I did not really figure this out, but appears it wants just Objects.
     * It is unclear how to autoload code, or hook to autoload code.
+
+This app does not address audio clips not the mobile device. Doing so will require setting CORS (Cross Origin Resource Sharing) [wikipedia](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - which, as of this date (2018-10-19), is still buggy.
