@@ -16,15 +16,15 @@ https://www.w3schools.com/jsref/dom_obj_audio.asp
 * I could not get `audio.duration` to work.
 * The following excessive security permissions were set
 
-    <meta http-equiv="Content-Security-Policy" 
+    &lt;meta http-equiv="Content-Security-Policy" 
              content="default-src *; 
                       style-src * 'self' 'unsafe-inline' 'unsafe-eval'; 
                       script-src * 'self' 'unsafe-inline' 'unsafe-eval';">
 
 * For `style-src * 'self' 'unsafe-inline' 'unsafe-eval'`
-* `'unsafe-eval'` can just be removed with issue.
-* `'unsafe-inline'` is required anytime `style` is used.
+    * `'unsafe-eval'` can just be removed with issue.
+    * `'unsafe-inline'` is required anytime `style` is used.
 
 * For `script-src * 'self' 'unsafe-inline' 'unsafe-eval'`
-* I did not really figure this out, but appears it wants just Objects.
-* It is unclear how to autoload code, or hook to autoload code.
+    * I did not really figure this out, but appears it wants just Objects.
+    * It is unclear how to autoload code, or hook to autoload code.
