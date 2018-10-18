@@ -9,7 +9,7 @@ This example app uses the least amount of javascript and css possible. It only u
 
 ## Reference
 
-https://www.w3schools.com/jsref/dom_obj_audio.asp
+* https://www.w3schools.com/jsref/dom_obj_audio.asp
 
 ## BUGS
 
