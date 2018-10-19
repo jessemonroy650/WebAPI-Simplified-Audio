@@ -1,19 +1,21 @@
 # WebAPI-Simplified-Audio
-A simplified example for WebAPI Audio. This example uses less CSS, less Javascript.
+A simplified example for WebAPI Audio. This example app uses the least amount of javascript and css possible.
 
-This example app uses the least amount of javascript and css possible. It only uses `cordova-plugin-media`. The plugin `cordova-plugin-file` is loaded automatically by *Phonegap Build*.
+The app uses the WebAPI 'Audio' object, as well as BOM (Browser Object Model) Objects.
 
-* When the app starts it plays a trumpet "fanfare" audio clip.
-* The "Play Other" is the "ice cream truck" song.
+* https://www.w3schools.com/jsref/dom_obj_audio.asp 
+
+The example expects everything to work.
+
+* When the app starts, it plays a trumpet "fanfare" an `ogg` audio clip.
+* The "Play Other" is the "ice cream truck" song - a `wav` audio clip.
 * The "Play Buddy Holly" is Buddy Holly's song entitled "Everyday".
-
-## Reference
-
-* https://www.w3schools.com/jsref/dom_obj_audio.asp
 
 ## BUGS
 
 * I could not get `audio.duration` to work.
+
+## Security
 * The following excessive security permissions were set
 ```
     <meta http-equiv="Content-Security-Policy" 
