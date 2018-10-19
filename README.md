@@ -1,7 +1,7 @@
 # WebAPI-Simplified-Audio
 A simplified example for WebAPI Audio. This example app uses the least amount of javascript and css possible.
 
-In the future, I may get this down to a single page example + audio samples. For now, download the bundle and load index.html into your webbrowser.
+In the future, I may get this down to a single page example + audio samples. For now, download the bundle and load `index.html` into your webbrowser.
 
 The app uses the WebAPI 'Audio' object, as well as BOM (Browser Object Model) Objects.
 
